@@ -1,2 +1,4 @@
-package com.picpaysimplificado.dtos;public class ExceptionDTO {
+package com.picpaysimplificado.dtos;
+
+public record ExceptionDTO(String message, String statusCode){
 }
